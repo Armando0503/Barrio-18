@@ -3,7 +3,7 @@
 .resolucion {
     text-align: center;
     box-sizing: content-box;
-    width: 100%;
+   
 }
 
 @media(max-width:100px){
@@ -11,7 +11,7 @@
     .tablet{display:none;}
     .movil{display:none;}
     box-sizing: content-box;
-    width: 100%;
+    
 }
 
 
@@ -21,20 +21,20 @@
     text-decoration: none;
     list-style: none;
     box-sizing: content-box;
-    width: 100%;
+    
 }
 
 body{
     font-family: "Poppins", sans-serif;
     box-sizing: content-box;
-    width: 100%;
+    
 }
 
 .container{
     max-width: 1000 px;
     margin:0 auto;
     box-sizing: content-box;
-    width: 100%;
+   
 }
 
 .header{
@@ -49,7 +49,7 @@ body{
         display:flex;
         align-items: center;
         box-sizing: content-box;
-        width: 100%;
+     
        }
 
     .menu{
@@ -61,7 +61,7 @@ body{
         align-items: center;
         justify-content: space-between;
         box-sizing: content-box;
-        width: 100%;
+     
     }
 
     .logo{
@@ -69,14 +69,14 @@ body{
         font-size:25px;
         font-weight: 800;
         box-sizing: content-box;
-        width: 100%;
+       
     }
 
     .menu .navbar ul li{
         position: relative;
         float: left;
         box-sizing: content-box;
-        width: 100%;
+        
     }
     
     .menu .navbar ul li a {
@@ -86,13 +86,13 @@ body{
         display:block;
         font-weight:600;
         box-sizing: content-box;
-        width: 100%;
+        
         }
 
     .menu .navbar ul li a:hover{
         color:#700de2;
         box-sizing: content-box;
-        width: 100%;
+        
     }
 
     #menu{
@@ -121,7 +121,7 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         box-sizing: content-box;
-        width: 100%;
+        
     }
 
     .header-content p{
@@ -130,7 +130,7 @@ body{
         padding:0 250px;
         margin-bottom: 25px;
         box-sizing: content-box;
-        width: 100%;
+    
     }
 
     .btn-1{
@@ -140,13 +140,13 @@ body{
         color:#F9FAFC;
         text-transform: uppercase;
         box-sizing: content-box;
-        width: 100%;
+        
     }
 
     .btn-1:hover{
         background-color:#ebad8d;
         box-sizing: content-box;
-        width: 100%;
+      
     }
 
     .coffee{
@@ -154,13 +154,13 @@ body{
         background-color: #E1E2E6;
         position: relative;
         box-sizing: content-box;
-        width: 100%;
+   
     }
 
     .coffee-content {
         text-align: center;
         box-sizing: content-box;
-        width: 100%;
+        
     }
 
     .coffee-content h2{
@@ -171,7 +171,7 @@ body{
         padding:0 250px;
         margin-bottom: 15px;
         box-sizing: content-box;
-        width: 100%;
+      
     }
 
     .txt-p {
@@ -180,7 +180,7 @@ body{
         padding:0 250px;
         margin-bottom:35px;
         box-sizing: content-box;
-        width: 100%;
+       
     }
 
     .coffee-group {
@@ -188,13 +188,13 @@ body{
         justify-content: space-between;
         margin-bottom: 50px;
         box-sizing: content-box;
-        width: 100%;
+       
     }
 
     .coffee-1{
         padding: 0 25px;
         box-sizing: content-box;
-        width: 100%;
+       
     }
 
     .coffee-1 img {
@@ -304,7 +304,7 @@ body{
         text-transform:uppercase;
         margin-bottom:20px;
         box-sizing: content-box;
-        width: 100%;
+       
     }
 
     p{
@@ -312,14 +312,14 @@ body{
         color:#414247;
         margin:25px 0 45px 0;
         box-sizing: content-box;
-        width: 100%;
+        
     }
 
     .blog{
         padding:100px 0;
         text-align: center;
         box-sizing: content-box;
-        width: 100%;
+       
     }
 
     .blog-content {
@@ -332,7 +332,7 @@ body{
     .blog-1 {
         padding: 15px 55px;
         box-sizing: content-box;
-        width: 100%;
+       
     }
 
     .blog-1 img{
@@ -341,28 +341,28 @@ body{
         border-radius: 15px;
         margin-bottom: 15px;
         box-sizing: content-box;
-        width: 100%;
+        
     }
 
     .blog-1 h3 {
         font-size: 25px;
         color:#323337;
         box-sizing: content-box;
-        width: 100%;
+        
     }
 
     .footer {
         padding: 100px 0;
         background-color: #000000;
         box-sizing: content-box;
-        width: 100%;
+        
     }
 
     .footer-content {
         display: flex;
         justify-content: space-between;
         box-sizing: content-box;
-        width: 100%;
+       
     }
 
     .link h3 {
@@ -370,7 +370,7 @@ body{
         color:#F9FAFC;
         margin-bottom: 15px;
         box-sizing: content-box;
-        width: 100%;
+        
     }
 
     .link a {
@@ -379,7 +379,7 @@ body{
         display:block;
         margin-bottom: 15px;
         box-sizing: content-box;
-        width: 100%;
+       
     }
 
     @media(max-width:991px) {
@@ -387,7 +387,7 @@ body{
     .menu {
             padding:30px;
             box-sizing: content-box;
-            width: 100%;
+            
        }
 
     .menu label {
@@ -447,19 +447,19 @@ body{
     .services {
         padding:30px;
         box-sizing: content-box;
-        width: 100%;
+        
     }
 
     .services-content p {
         padding:30px;
         box-sizing: content-box;
-        width: 100%;
+        
     }
 
     .services-1 {
         margin-bottom: 25px;
         box-sizing: content-box;
-        width: 100%;
+        
     }
 
     .general-1 {
@@ -473,38 +473,38 @@ body{
     .general-2, .general-3 {
         display: none;
         box-sizing: content-box;
-        width: 100%;
+      
     }
 
     .blog {
         padding: 30px;
         box-sizing: content-box;
-        width: 100%;
+       
     }
 
     .blog-content {
         flex-direction: column;
         box-sizing: content-box;
-        width: 100%;
+    
     }
 
     .blog-1 {
         padding:0;
         box-sizing: content-box;
-        width: 100%;
+    
     }
 
     .footer {
         padding:30px;
         box-sizing: content-box;
-        width: 100%;
+        
     }
 
     .footer-content {
         flex-direction: column;
         text-align: center;
         box-sizing: content-box;
-        width: 100%;
+        
     }
 
     .btn-wsp{
