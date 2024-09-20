@@ -4,7 +4,6 @@
     text-align: center;
     box-sizing: border-box;
     width: 100%;
-    border: solid #5B6DCD 10px;
     padding: 5px;
    
 }
@@ -15,7 +14,6 @@
     .movil{display:none;}
     box-sizing: border-box;
     width: 100%;
-    border: solid #5B6DCD 10px;
     padding: 5px;
     
 }
@@ -28,7 +26,6 @@
     list-style: none;
     box-sizing: border-box;
     width: 100%;
-    border: solid #5B6DCD 10px;
     padding: 5px;
     
 }
