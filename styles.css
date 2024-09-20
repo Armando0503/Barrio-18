@@ -1,32 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 .resolucion {
-    width:99%;
     text-align: center;
+    box-sizing: content-box;
+    width: 100%;
 }
 
 @media(max-width:100px){
     .desktop{display:none;}
     .tablet{display:none;}
     .movil{display:none;}
+    box-sizing: content-box;
+    width: 100%;
 }
 
 
 *{
     margin:0;
     padding:0;
-    box-sizing: content-box;
     text-decoration: none;
     list-style: none;
+    box-sizing: content-box;
+    width: 100%;
 }
 
 body{
     font-family: "Poppins", sans-serif;
+    box-sizing: content-box;
+    width: 100%;
 }
 
 .container{
     max-width: 1000 px;
     margin:0 auto;
+    box-sizing: content-box;
+    width: 100%;
 }
 
 .header{
@@ -40,6 +48,8 @@ body{
         min-height: 70vh;
         display:flex;
         align-items: center;
+        box-sizing: content-box;
+        width: 100%;
        }
 
     .menu{
@@ -50,17 +60,23 @@ body{
         display:flex;
         align-items: center;
         justify-content: space-between;
+        box-sizing: content-box;
+        width: 100%;
     }
 
     .logo{
         color:#FFFDCF;
         font-size:25px;
         font-weight: 800;
+        box-sizing: content-box;
+        width: 100%;
     }
 
     .menu .navbar ul li{
         position: relative;
         float: left;
+        box-sizing: content-box;
+        width: 100%;
     }
     
     .menu .navbar ul li a {
@@ -69,10 +85,14 @@ body{
         color:#FFFDCF;
         display:block;
         font-weight:600;
+        box-sizing: content-box;
+        width: 100%;
         }
 
     .menu .navbar ul li a:hover{
         color:#700de2;
+        box-sizing: content-box;
+        width: 100%;
     }
 
     #menu{
@@ -101,6 +121,7 @@ body{
         background-repeat: no-repeat;
         background-size: cover;
         box-sizing: content-box;
+        width: 100%;
     }
 
     .header-content p{
@@ -108,6 +129,8 @@ body{
         color:#C5C5C5;
         padding:0 250px;
         margin-bottom: 25px;
+        box-sizing: content-box;
+        width: 100%;
     }
 
     .btn-1{
@@ -116,20 +139,28 @@ body{
         background-color: #CE967B;
         color:#F9FAFC;
         text-transform: uppercase;
+        box-sizing: content-box;
+        width: 100%;
     }
 
     .btn-1:hover{
         background-color:#ebad8d;
+        box-sizing: content-box;
+        width: 100%;
     }
 
     .coffee{
         padding:100px 0;
         background-color: #E1E2E6;
         position: relative;
+        box-sizing: content-box;
+        width: 100%;
     }
 
     .coffee-content {
         text-align: center;
+        box-sizing: content-box;
+        width: 100%;
     }
 
     .coffee-content h2{
@@ -140,6 +171,7 @@ body{
         padding:0 250px;
         margin-bottom: 15px;
         box-sizing: content-box;
+        width: 100%;
     }
 
     .txt-p {
@@ -147,21 +179,28 @@ body{
         color:#414247;
         padding:0 250px;
         margin-bottom:35px;
+        box-sizing: content-box;
+        width: 100%;
     }
 
     .coffee-group {
         display:flex;
         justify-content: space-between;
         margin-bottom: 50px;
+        box-sizing: content-box;
+        width: 100%;
     }
 
     .coffee-1{
         padding: 0 25px;
+        box-sizing: content-box;
+        width: 100%;
     }
 
     .coffee-1 img {
         width: 300px;
         height:250px;
+        
     }
 
     .coffee-img {
