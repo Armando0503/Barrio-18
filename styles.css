@@ -5,7 +5,7 @@
     text-align: center;
 }
 
-@media(max-width:1000px){
+@media(max-width:800px){
     .desktop{display:none;}
     .tablet{display:none;}
     .movil{display:none;}
