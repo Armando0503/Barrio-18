@@ -2,7 +2,10 @@
 
 .resolucion {
     text-align: center;
-    box-sizing: content-box;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #5B6DCD 10px;
+    padding: 5px;
    
 }
 
@@ -10,7 +13,10 @@
     .desktop{display:none;}
     .tablet{display:none;}
     .movil{display:none;}
-    box-sizing: content-box;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #5B6DCD 10px;
+    padding: 5px;
     
 }
 
@@ -20,7 +26,10 @@
     padding:0;
     text-decoration: none;
     list-style: none;
-    box-sizing: content-box;
+    box-sizing: border-box;
+    width: 100%;
+    border: solid #5B6DCD 10px;
+    padding: 5px;
     
 }
 
