@@ -100,6 +100,7 @@ body{
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
+        box-sizing: content-box;
     }
 
     .header-content p{
@@ -138,6 +139,7 @@ body{
         text-transform: uppercase;
         padding:0 250px;
         margin-bottom: 15px;
+        box-sizing: content-box;
     }
 
     .txt-p {
@@ -172,6 +174,7 @@ body{
         color: #323337;
         font-size:20px;
         margin-bottom:15px;
+        box-sizing: content-box;
     }
 
     .services {
@@ -184,6 +187,7 @@ body{
             background-size: cover;
             background-attachment: fixed;
             padding:100px 0;
+            box-sizing: content-box;
     }
 
     .services-content {
@@ -203,12 +207,14 @@ body{
         color:#C5C5C5;
         margin-bottom: 50px;
         padding:0 100px;
+        box-sizing: content-box;
     }
 
     .services-group {
         display:flex;
         justify-content: space-between;
         margin-bottom: 50px;
+        box-sizing: content-box;
     }
 
     .services-1 {
@@ -223,10 +229,12 @@ body{
     .services-1 h3 {
         color:#EACCB3;
         font-size:18px;
+        box-sizing: content-box;
     }
 
     .general{
         display:flex;
+        box-sizing: content-box;
     }
 
     .general-1 {
